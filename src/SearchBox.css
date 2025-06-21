@@ -1,0 +1,141 @@
+/* SearchBox.css */
+
+.SearchBox {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.SearchBox h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #3b82f6, #10b981);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.SearchBox form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.SearchBox .MuiTextField-root {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+.SearchBox .MuiOutlinedInput-root {
+    border-radius: 8px;
+}
+
+.SearchBox .MuiButton-root {
+    background: linear-gradient(135deg, #3b82f6, #6366f1);
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.SearchBox .MuiButton-root:hover {
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.SearchBox .MuiCard-root {
+    margin-top: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+}
+
+.SearchBox .MuiCard-root:hover {
+    transform: translateY(-5px);
+}
+
+.SearchBox .MuiCardMedia-root {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+}
+
+.SearchBox .MuiCardContent-root {
+    padding: 1.5rem;
+}
+
+.SearchBox .MuiTypography-h5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.SearchBox .MuiTypography-body2 {
+    color: #555;
+    line-height: 1.8;
+}
+
+.SearchBox .MuiCardActions-root {
+    padding: 0 1.5rem 1.5rem;
+    justify-content: flex-end;
+}
+
+.SearchBox .MuiCardActions-root .MuiButton-root {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    padding: 0.25rem 1rem;
+    font-size: 0.875rem;
+}
+
+.SearchBox .MuiCardActions-root .MuiButton-root:hover {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+}
+
+/* Weather icon styling */
+.SearchBox .MuiSvgIcon-root {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.SearchBox .MuiSvgIcon-root[data-testid="ThunderstormIcon"] {
+    color: #6366f1;
+}
+
+.SearchBox .MuiSvgIcon-root[data-testid="SunnyIcon"] {
+    color: #f59e0b;
+}
+
+.SearchBox .MuiSvgIcon-root[data-testid="AcUnitIcon"] {
+    color: #3b82f6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .SearchBox {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+    .SearchBox h3 {
+        font-size: 1.5rem;
+    }
+}
