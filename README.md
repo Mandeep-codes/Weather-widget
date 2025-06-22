@@ -13,7 +13,7 @@ React
 JavaScript  
 Vite  
 OpenWeatherMap API  
-CSS (or Material UI, if used)
+Material UI
 
 ---
 
