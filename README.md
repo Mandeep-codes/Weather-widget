@@ -1,61 +1,55 @@
-🌦️ Weather Widget
-A clean and simple weather widget built using React and the OpenWeatherMap API.
+# 🌦️ Weather Widget
 
-🛠️ I built this while I was learning how to fetch and display data from external APIs in React. Great hands-on practice for using useState, handling user input, and working with async functions.
+A clean and simple weather widget built using **React** and the **OpenWeatherMap API**.
 
-🔍 Features
-Search weather by city name
+🛠️ I built this while I was learning how to work with APIs in React. It helped me understand how to use `useState`, handle user input, and manage asynchronous data with fetch.
 
-Real-time temperature and weather conditions
+This app allows users to search for the current weather in any city and displays real-time weather data including temperature, weather condition, and location in a clean and responsive UI.
 
-Responsive UI
+---
 
-Displays weather icon, location, and other details
+**🧰 Tech Stack:**  
+React  
+JavaScript  
+Vite  
+OpenWeatherMap API  
+CSS (or Material UI, if used)
 
-⚙️ Tech Stack
-React
+---
 
-JavaScript
+**🚀 How to Run Locally:**  
+Clone the repository:  
+`git clone https://github.com/Mandeep-codes/Weather-widget.git`
 
-OpenWeatherMap API
+Navigate into the project folder:  
+`cd Weather-widget`
 
-CSS / Material UI (if used)
+Install dependencies:  
+`npm install`
 
-📦 Getting Started
-Clone the repo
+Create a `.env` file in the root directory and add your API key like this:  
+`VITE_WEATHER_API_KEY=your_api_key_here`
 
-bash
-Copy
-Edit
-git clone https://github.com/Mandeep-codes/Weather-widget.git
-cd Weather-widget
-Install dependencies
+Start the development server:  
+`npm run dev`
 
-bash
-Copy
-Edit
-npm install
-Add your API Key
-Create a .env file in the root folder and add:
+---
 
-ini
-Copy
-Edit
-VITE_WEATHER_API_KEY=your_api_key_here
-Start the app
+**📚 What I Learned:**  
+- Fetching data from an API  
+- Managing input and state using `useState`  
+- Conditional rendering  
+- Using environment variables in Vite projects  
+- Clean UI structuring and error handling
 
-bash
-Copy
-Edit
-npm run dev
-🌐 API Info
-This project uses the OpenWeatherMap API to get current weather data.
+---
 
-🧠 What I Learned
-API integration in React
+**🌐 API Used:**  
+OpenWeatherMap Current Weather API  
+https://openweathermap.org/current
 
-Handling form inputs and dynamic data
+---
 
-Managing component state with useState
+**📄 License:**  
+MIT
 
-Clean and responsive UI structuring
